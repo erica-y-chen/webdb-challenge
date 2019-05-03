@@ -34,7 +34,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 1. Explain the difference between `RDBMS` and `SQL`.
 1. Why do tables need a `primary key`?
-1. What is the name given to a table column that references the primary key on another table.
+1. What is the name given to a table column that references the primary key on another table. foreign key
 1. What do we need in order to have a _many to many_ relationship between two tables.
 
 ## Project Set Up
@@ -73,12 +73,7 @@ Feel free to name the tables and fields anything you want. **Add relationships**
 
 ### Tasks
 
-- [ ] Build the database and tables using knex migrations. **Seeding is not needed**.
-- [ ] Build the API with the following endpoints:
-
-  - [ ] POST for adding projects.
-  - [ ] POST for adding actions.
-  - [ ] GET for retrieving a `project` by its `id` that returns an object with the following structure:
+ 
 
     ```js
     {
